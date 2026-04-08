@@ -5,5 +5,6 @@ class FormPage extends StatefulWidget {
   _FormPageState createState() => _FormPageState();
 }
 class _FormPageState extends State<FormPage> {
-  
+  final TextEditingController namaController = TextEditingController();
+  final TextEditingController emailController = TextEditingController();
 }
