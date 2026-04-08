@@ -22,6 +22,12 @@ class _FormPageState extends State<FormPage> {
       appBar: AppBar(
         title: Text("Form Input"),
       ),
+      body: Padding(
+        padding: const EdgeInsets.all(16.0),
+        child: Column(
+          
+        ),
+      )
     );
   }
 }
