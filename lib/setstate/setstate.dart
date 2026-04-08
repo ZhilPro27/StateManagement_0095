@@ -7,4 +7,12 @@ class FormPage extends StatefulWidget {
 class _FormPageState extends State<FormPage> {
   final TextEditingController namaController = TextEditingController();
   final TextEditingController emailController = TextEditingController();
+
+  String hasil = "";
+
+  void submitData(){
+    setState(() {
+      hasil = "Nama: ${namaController.text}, Email: ${emailController.text}";
+    });
+  }
 }
