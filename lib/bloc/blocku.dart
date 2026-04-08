@@ -13,3 +13,10 @@ class EmailChanged extends FormEvent {
   EmailChanged(this.email);
 }
 
+//STATE
+class FormState {
+  final String nama;
+  final String email;
+
+  FormState({this.nama = "", this.email = ""});
+}
