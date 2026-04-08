@@ -15,4 +15,13 @@ class _FormPageState extends State<FormPage> {
       hasil = "Nama: ${namaController.text}, Email: ${emailController.text}";
     });
   }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text("Form Input"),
+      ),
+    );
+  }
 }
